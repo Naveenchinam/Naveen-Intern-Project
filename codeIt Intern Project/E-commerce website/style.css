@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Robot',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 88px;
+    background-color: royalblue;
+    color: white;
+}
+.logo{
+    font-size: 25px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    margin-inline: 22px;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+}
+nav i{
+    font-size: 25px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 99px;
+}
+.main img{
+    width: 324px;
+}
+.mainText{
+    margin-top: 74px;
+}
+.main h1{
+    font-size: 66px;
+}
+.main p{
+    color: rgb(26,26,26);
+    margin-top: 22px;
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    background-color:darkblue;
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+.main button:hover{
+    background-color: bisque;
+    color: #5c0bf3;
+}
+.shop{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.shop .shopcard{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+    background-image:linear-gradient(to bottom right,#003833, #006c89, #00e7ff, #00ffb1, #e6ff5e) ;
+    color: white;
+    text-align: center;
+}
+.shopcard button{
+    width: 80px;
+    height: 28px;
+    background-color:#5c0bf3 ;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.shopcard p{
+    margin-top: 11px;
+
+}
+.shopcard img{
+    width: 100%;
+    height: 300px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.available{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: auto;
+}
+.available img{
+    width: 500px;
+}
+.stockText{
+    padding: 33px;
+    background-image: linear-gradient(to top left, #6d0a02, #7e4800, #089cff, #d2ecf7, #fffbf4);
+    color: white;
+}
+.stockText p{
+    margin-top: 22px;
+}
+.stockText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color:#5c0bf3 ;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.insights{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.insightsCard{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+
+.insights img{
+    width: 100%;
+    height: 300px;
+}
+
+.insights a{
+    padding: 4px 22px;
+    background-color:#5c0bf3;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: blueviolet;
+    color: white;
+}
+.text{
+    margin-top: 22px;
+}
+.text p{
+    margin-top: 11px;
+}
+
+.cartHead{
+    text-align: center;
+   justify-content: center;
+   text-align: center;
+   padding: 12px 22px;
+   background-color: rgb(25, 154, 54);
+   color: white;
+   text-decoration: none;
+   font-size: 22px;
+   position: relative;
+   top: 22px;
+   text-align: center;
+   left: 40%;
+
+}
+.card {
+   display: flex;
+   gap: 33px;
+   width: 800px;
+   margin: auto;
+   margin-top:83px;
+}
+.card img{
+   width: 400px;
+   cursor: pointer;
+}
+.card p{
+   margin-top: 22px;
+}
+.card a{
+   padding: 4px 22px;
+   background-color: skyblue;
+   color: white;
+   font-size: 20px;
+   border: none;
+   margin-top: 22px;
+   text-decoration: none;
+   position: relative;
+   top: 44px;
+}
+
+@media screen and (max-width:970px){
+   .main{
+       display: block;
+       text-align: center;
+   }
+   .available{
+       display: block;
+       width: 500px;
+   }
+   .card{
+       display: block;
+       text-align: center;
+       width: 90%;
+   }
+   .card img{
+       width: 80%;
+   }
+}
+
+@media screen and (max-width:700px){
+   ul{
+       display: none;
+
+   }
+}
+
+@media screen and (max-width:600px){
+   .main h1{
+       font-size: 34px;
+   }
+   .main img{
+       width: 90%;
+   }
+   .available{
+       width: 90%;
+   }
+   .available img{
+       width: 100%;
+   }
+}
